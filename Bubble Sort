@@ -1,0 +1,43 @@
+/* BUBBLE SORT */
+#include <iostream>
+using namespace std;
+
+void bubbleSort(int data[], int n)
+{
+	bool swap;
+	int temp;
+	for (int i = 0; i < n - 1; i++) {
+		swap = false;
+		for (int j = 0; j < n - i - 1; j++) {
+			if (data[j] > data[j + 1]) {
+				temp = data[j];
+				data[j] = data[j + 1];
+				data[j + 1] = temp;
+				swap = true;
+			}
+		}
+
+		if (swap == false)
+			break;
+	}
+}
+
+// Function to print an array
+void printArray(int arr[], int size)
+{
+	int i;
+	for (i = 0; i < size; i++)
+		cout << " " << arr[i];
+}
+
+// Driver program to test above functions
+int main()
+{
+	int val[] = {150, 60, 142, 9, 399, 16};
+	int size = sizeof(val) / sizeof(val[0]);
+	bubbleSort(val, size);
+	for(int i = 0; i< size; i++){
+		cout << " " << val[i];
+	}
+	return 0;
+}
