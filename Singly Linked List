@@ -2,6 +2,7 @@
 The size of an array can not be increased once declared, but since Linked List memory are created dynamically and 
 they need not be in a contiguous format as they are connected with pointers.
 */
+
 #include <iostream>
 using namespace std;
 
