@@ -2,7 +2,8 @@
 A data structure is a storage that is used to store and organize data. 
 It is a way of arranging data on a computer so that it can be accessed and updated efficiently.
 
-1. __Linear Data Structure__ --> STATIC DATA STRUCTURES
+1. __Linear Data Structure__
+   --> STATIC DATA STRUCTURES
                                        >> __Array__ [fixed memory size]
 
    --> DYNAMIC DATA STRUCTURES
@@ -10,8 +11,9 @@ It is a way of arranging data on a computer so that it can be accessed and updat
                                        >> __Stack__ [LIFO]
                                        >> __Linked List__ [to implement stacks, queues, graphs]
 
-3. __Non-Linear Data Structure__ --> TREE 
-                                 --> GRAPH
+3. __Non-Linear Data Structure__
+   --> TREE 
+   --> GRAPH
 
 
 LINKED LISTS
