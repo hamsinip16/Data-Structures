@@ -4,12 +4,13 @@ It is a way of arranging data on a computer so that it can be accessed and updat
 
 1. __Linear Data Structure__ --> STATIC DATA STRUCTURES
                                        >> __Array__ [fixed memory size]
-                             --> DYNAMIC DATA STRUCTURES
+
+   --> DYNAMIC DATA STRUCTURES
                                        >> __Queue__ [FIFO]
                                        >> __Stack__ [LIFO]
                                        >> __Linked List__ [to implement stacks, queues, graphs]
 
-2. __Non-Linear Data Structure__ --> TREE 
+3. __Non-Linear Data Structure__ --> TREE 
                                  --> GRAPH
 
 
